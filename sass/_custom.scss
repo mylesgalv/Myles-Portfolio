@@ -1,0 +1,148 @@
+// Your custom SCSS should be written here...
+
+
+/*
+@include font-face("Mono Social Icons Font", font-files("MonoSocialIconsFont-1.10.woff", "MonoSocialIconsFont-1.10.ttf", "MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), "MonoSocialIconsFont-1.10.eot", normal, normal);
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+	
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('MonoSocialIconsFont-1.10.eot');
+    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+.row {
+    max-width:1400px;
+}
+
+/*
+
+#hero {
+	height: 690px;
+	background-image: url('../img/fly.png');
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+*/
+
+/*
+#wrap {
+    width:1400px;
+    overflow:hidden;
+    text-align:center;
+    
+}
+
+#image {
+    width: 1400px;
+    height:auto;
+    position:absolute;
+    background-image:url('flying1366x768.png') no-repeat;
+}
+
+*/
+
+
+/*
+#wrap {
+    width:1400px;
+    height:100%;
+    overflow:hidden;
+    text-align:center;
+}
+
+#image {
+    margin:0 auto;
+    background:url(../img/flying1366x768.png) no-repeat;
+    width:1400px;
+    height:100%;
+}
+
+*/
+
+
+
+
+#hero {
+	height: 900px;
+	background-image: url('../img/fly.png');
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+
+.overlay{
+background: rgba(39,62,84,0.82);
+overflow: hidden;
+height: 100%;
+z-index: 2;
+}
+
+
+h1 {
+	margin-top:5%;
+    margin-left: 10%;
+    font-family: Pacifico;
+    /*color:#eceaec;*/
+    color:white;
+}
+
+h2 {
+    font-family: Pacifico;
+    color:white;
+}
+
+#contact h3 {
+    font-family: 'Mono Social Icons Font';
+    color:white;
+
+}
+
+#words {
+    margin-top:15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
